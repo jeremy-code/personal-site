@@ -1,0 +1,13 @@
+.navbar {
+  background-color: green !important;
+  /* height: 100px; */
+}
+
+/* every .NavLink except the last one add right margin */
+.navLink:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.navLink {
+  color: black !important;
+}

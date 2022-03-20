@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 1.25rem 0;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.link {
+  text-decoration-skip: auto;
+}
+
+@media not screen and (min-device-pixel-ratio: 2),
+  not screen and (min-resolution: 192dpi) {
+  .emoji {
+    margin-right: 5px;
+  }
+}

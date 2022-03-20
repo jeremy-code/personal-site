@@ -1,0 +1,29 @@
+.hero {
+  /* max-height is the full viewing height minus 4.5rem */
+  min-height: calc(100vh - 4.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heroTitle {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 2.5rem;
+  margin-bottom: 6rem;
+}
+
+.emoji {
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+
+@media screen and (max-width: 991px) {
+  .svg {
+    display: none;
+  }
+}
