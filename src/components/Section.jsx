@@ -1,16 +1,23 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-import styles from "./Section.module.css";
-
 function Section({title, children, color, textColor}) {
+
+  const sectionStyle = {
+    display: "grid",
+    placeItems: "center",
+    padding: "clamp(1rem, 8vw, 6rem) 0",
+    backgroundColor: color,
+    color: textColor
+  };
+
   return (
-    <div className={styles.section} style={{backgroundColor: color, color: textColor}}>
+    <section style={sectionStyle}>
       <Container>
       <h1 className="mb-5">{title}</h1>
       {children}
       </Container>
-    </div>
+    </section>
   );
 }
 

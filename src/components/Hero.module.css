@@ -1,9 +1,9 @@
 .hero {
-  /* max-height is the full viewing height minus 4.5rem */
   min-height: calc(100vh - 4.5rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 2rem 0;
 }
 
 .heroTitle {
